@@ -30,10 +30,11 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
-	}
 	else if (strcmp(argv[1], "car") == 0) {
   	  printf("%d\n", car(atoi(argv[2])));
 	}
+	}
+
 
 
 		
